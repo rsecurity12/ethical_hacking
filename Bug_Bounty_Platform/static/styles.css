@@ -1,0 +1,43 @@
+/* ... Previous CSS styles ... */
+
+/* Style the background image container */
+.background-image {
+    background-image: url('/images/Bug-Bounty-Program.png'); /* Replace with the correct URL path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh; /* Ensure the background covers the entire viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the login container with yellow border */
+.login-container {
+    /* No need to set background-color, it will default to transparent */
+    width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid yellow; /* Set the border color to yellow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+    /* Center horizontally and vertically, and move 2 centimeters to the right (approx. 75.6px) */
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: calc(50% - 75.6px); /* Center horizontally and move 2cm to the right */
+    transform: translate(-50%, -50%); /* Center precisely */
+}
+
+.message {
+    color: yellow;
+}
+
+
+.custom-background {
+    background-image: url('/images/bug-bounty.jpg'); /* Replace with the correct URL path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh; /* Ensure the background covers the entire viewport height */
+}
